@@ -4,7 +4,6 @@ body{
     background: url('backgroundimg.png') no-repeat center center fixed;
     background-size:cover;
     backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
-        height: 100vh; /* Ensure the body takes the full viewport height */
 
 }
 .Calculator-app {
