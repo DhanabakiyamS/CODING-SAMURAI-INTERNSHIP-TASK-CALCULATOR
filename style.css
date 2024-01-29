@@ -1,16 +1,17 @@
-body {
+body{
     margin: 0%;
     padding: 5%;
     background: url('backgroundimg.png') no-repeat center center fixed;
-    background-size: cover;
-    backdrop-filter: blur(5px);
-    height: 100vh;
+    background-size:cover;
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+        height: 100vh; /* Ensure the body takes the full viewport height */
+
 }
 .Calculator-app {
     font-family: 'Arial', 'Helvetica', sans-serif;
     width: 100%;
     max-width: 400px;
-    margin: 0 auto; /* Center the calculator on larger screens */
+   
 }
 h1 {
     color: white;
@@ -58,15 +59,5 @@ button{
 button:hover{
     transform: translateY(3px);
     box-shadow: none;
-}
-@media only screen and (max-width: 600px) {
-    /* Adjust styles for smaller screens */
-    .Calculator {
-        padding: 10px;
-    }
-
-    .buttons {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
